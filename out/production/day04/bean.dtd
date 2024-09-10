@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT notes (note*) >
+<!ELEMENT note (to,from+,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from EMPTY>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body ANY>
+<!ATTLIST to name CDATA #REQUIRED>
+<!ATTLIST to id ID #REQUIRED>

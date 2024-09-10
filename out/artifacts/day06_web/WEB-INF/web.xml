@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>Demo01Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo01Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo01Servlet</servlet-name>
+        <url-pattern>/demo01Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo02Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo02Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo02Servlet</servlet-name>
+        <url-pattern>/demo02Servlet</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>格格</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>age</param-name>
+        <param-value>1</param-value>
+    </context-param>
+
+
+    <servlet>
+        <servlet-name>Demo03Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo03Servlet</servlet-class>
+        <!--配置的servlet的初始化参数-->
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>很开心</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo03Servlet</servlet-name>
+        <url-pattern>/demo03Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo04Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo04Servlet</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>很开心</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo04Servlet</servlet-name>
+        <url-pattern>/demo04Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo05Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo05Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo05Servlet</servlet-name>
+        <url-pattern>/demo05Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Demo06Servlet</servlet-name>
+        <servlet-class>com.ly.servlet.Demo06Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo06Servlet</servlet-name>
+        <url-pattern>/demo06Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResponseServlet01</servlet-name>
+        <servlet-class>com.ly.response.ResponseServlet01</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseServlet01</servlet-name>
+        <url-pattern>/responseServlet01</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResponseServlet02</servlet-name>
+        <servlet-class>com.ly.response.ResponseServlet02</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseServlet02</servlet-name>
+        <url-pattern>/responseServlet02</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResponseServlet03</servlet-name>
+        <servlet-class>com.ly.response.ResponseServlet03</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseServlet03</servlet-name>
+        <url-pattern>/responseServlet03</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResponseServlet04</servlet-name>
+        <servlet-class>com.ly.response.ResponseServlet04</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseServlet04</servlet-name>
+        <url-pattern>/responseServlet04</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ResponseServlet05</servlet-name>
+        <servlet-class>com.ly.response.ResponseServlet05</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResponseServlet05</servlet-name>
+        <url-pattern>/responseServlet05</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>com.ly.response.DownloadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/downloadServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.ly.response.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/indexServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RequestServlet01</servlet-name>
+        <servlet-class>com.ly.request.RequestServlet01</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RequestServlet01</servlet-name>
+        <url-pattern>/requestServlet01</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RequestServlet02</servlet-name>
+        <servlet-class>com.ly.request.RequestServlet02</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RequestServlet02</servlet-name>
+        <url-pattern>/requestServlet02</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

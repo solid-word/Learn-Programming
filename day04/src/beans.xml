@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.gxa.cn/bean"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.gxa.cn/bean bean-schema.xsd">
+
+    <bean id="x001" className="xxx">
+        <property name="ssss" value="xxxx"/>
+    </bean>
+
+    <bean id="x002" className="nnn">
+        <property name="xxx" value="xxx"/>
+    </bean>
+    <import resource="xxxx"/>
+
+</beans>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE notes SYSTEM "bean.dtd">
+<notes>
+    <note>
+        <to name="xxx" id="x001">xxxx</to>
+        <from/>
+        <heading>xxx</heading>
+        <body>xxxx</body>
+    </note>
+    <note>
+        <to name="xxx" id="x002"></to>
+        <from/>
+        <heading>xxx</heading>
+        <body>xxxx</body>
+    </note>
+</notes>
